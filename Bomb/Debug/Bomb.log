@@ -1,0 +1,30 @@
+﻿  ViewControls.cpp
+  SetControls.cpp
+  RoundLoader.cpp
+  Round.cpp
+  Resources.cpp
+  Player.cpp
+  PauseMenu.cpp
+  Options.cpp
+  Monster.cpp
+  Menu.cpp
+  Map.cpp
+  MainMenu.cpp
+  main.cpp
+  Intro.cpp
+  Interface.cpp
+  GameResources.cpp
+  GameOver.cpp
+  Game.cpp
+  Field.cpp
+  Complete.cpp
+  Generating Code...
+  Compiling...
+  Character.cpp
+  Challenge.cpp
+  Camera.cpp
+  Bomb.cpp
+  AllegroForm.cpp
+  About.cpp
+  Generating Code...
+  Bomb.vcxproj -> D:\b\projektyprogramowanie\Boomanek\Bomb\Debug\Bomb.exe

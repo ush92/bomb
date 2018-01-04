@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\screenyMenu">
+      <UniqueIdentifier>{d012e1f3-3ade-4a9d-a9ee-785306b6f958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\screenyMenu">
+      <UniqueIdentifier>{647aeef5-36da-4002-a923-4a2ed893d89c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Challenge">
+      <UniqueIdentifier>{01b34910-d0ab-40bd-b573-8027b1e42faa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Challenge\Round">
+      <UniqueIdentifier>{ab8f4a08-3941-41d6-a240-75d1f67f7bc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Challenge\Round\mapa">
+      <UniqueIdentifier>{5bb43ac5-6aac-41c2-9f37-38aa1e251958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Challenge">
+      <UniqueIdentifier>{a0b41db5-c6e3-4612-b0c7-abf0ab5f1268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Challenge\Round">
+      <UniqueIdentifier>{a70cd2e8-f870-464e-b90d-22dd2ad90aa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Challenge\Round\mapa">
+      <UniqueIdentifier>{159590f4-b34c-4923-892b-a77c9f1679ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Challenge\Round\elementy gry">
+      <UniqueIdentifier>{71fb92b5-dbcd-4d72-b735-47481a80b2f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Challenge\Round\Elementy gry">
+      <UniqueIdentifier>{19b5ee60-2307-4405-a8c9-511e4aa4b72e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AllegroForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="About.h">
+      <Filter>Header Files\screenyMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Header Files\screenyMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files\screenyMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Header Files\Challenge\Round\mapa</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>Header Files\Challenge\Round\mapa</Filter>
+    </ClInclude>
+    <ClInclude Include="Options.h">
+      <Filter>Header Files\screenyMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="SetControls.h">
+      <Filter>Header Files\screenyMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewControls.h">
+      <Filter>Header Files\screenyMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface.h">
+      <Filter>Header Files\Challenge\Round</Filter>
+    </ClInclude>
+    <ClInclude Include="Round.h">
+      <Filter>Header Files\Challenge\Round</Filter>
+    </ClInclude>
+    <ClInclude Include="Challenge.h">
+      <Filter>Header Files\Challenge</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameResources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Header Files\Challenge\Round\elementy gry</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Challenge\Round\elementy gry</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseMenu.h">
+      <Filter>Header Files\screenyMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomb.h">
+      <Filter>Header Files\Challenge\Round\elementy gry</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Header Files\Challenge\Round\elementy gry</Filter>
+    </ClInclude>
+    <ClInclude Include="Intro.h">
+      <Filter>Header Files\screenyMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="RoundLoader.h">
+      <Filter>Header Files\screenyMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.h">
+      <Filter>Header Files\screenyMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Complete.h">
+      <Filter>Header Files\screenyMenu</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AllegroForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="About.cpp">
+      <Filter>Source Files\screenyMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files\screenyMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Source Files\screenyMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files\Challenge\Round\mapa</Filter>
+    </ClCompile>
+    <ClCompile Include="Field.cpp">
+      <Filter>Source Files\Challenge\Round\mapa</Filter>
+    </ClCompile>
+    <ClCompile Include="Options.cpp">
+      <Filter>Source Files\screenyMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="SetControls.cpp">
+      <Filter>Source Files\screenyMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewControls.cpp">
+      <Filter>Source Files\screenyMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Round.cpp">
+      <Filter>Source Files\Challenge\Round</Filter>
+    </ClCompile>
+    <ClCompile Include="Challenge.cpp">
+      <Filter>Source Files\Challenge</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Source Files\Challenge\Round\Elementy gry</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Challenge\Round\Elementy gry</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseMenu.cpp">
+      <Filter>Source Files\screenyMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomb.cpp">
+      <Filter>Source Files\Challenge\Round\Elementy gry</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Source Files\Challenge\Round\Elementy gry</Filter>
+    </ClCompile>
+    <ClCompile Include="Intro.cpp">
+      <Filter>Source Files\screenyMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="RoundLoader.cpp">
+      <Filter>Source Files\screenyMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="GameResources.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver.cpp">
+      <Filter>Source Files\screenyMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Complete.cpp">
+      <Filter>Source Files\screenyMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface.cpp">
+      <Filter>Source Files\Challenge\Round\mapa</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
